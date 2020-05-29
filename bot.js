@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const myid = ['ID'];
+const myid = ['https://discord.gg/SzUf8b'];
 const prefix = ['$'];
 const client = new Discord.Client();
 const client2 = new Discord.Client();
@@ -31,7 +31,7 @@ message.channel.send('#daily')
 message.channel.send('#credits')
   }
   if(message.content === 'r1'){
-message.channel.send("#rep "+"<@" + myid + ">")
+message.channel.send("#rep "+"<@" + 30000 + ">")
   }
   if (message.content === 'p1') {
 message.channel.send('#profile')
